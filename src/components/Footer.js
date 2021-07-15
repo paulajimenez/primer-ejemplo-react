@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Footer = () => {
-  return (<p>Copyright. Marca Registrada</p>);
+const Footer = ({fecha}) => {
+  return (<p>Copyright. Marca Registrada &copy; {fecha}</p>);
 }
 
 export default Footer;
